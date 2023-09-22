@@ -39,3 +39,15 @@ body {
     background-color: lightskyblue;
 
 }
+
+h1 {
+    text-align: center;
+}
+
+#magenta-text {
+    color: darkmagenta;
+}
+
+.colored-text {
+    color: darkmagenta;
+}
