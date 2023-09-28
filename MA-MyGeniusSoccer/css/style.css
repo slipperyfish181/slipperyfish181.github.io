@@ -51,3 +51,14 @@ h1 {
 .colored-text {
     color: darkmagenta;
 }
+
+
+
+p {
+    font-family: "citizen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-family: "citizen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
