@@ -1,0 +1,179 @@
+.container {
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 100px;
+    background-color: white;
+
+}
+
+body {
+    background-color: blanchedalmond;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav li a:hover {
+    background-color: aliceblue;
+}
+
+.active-navpage {
+    background-color: lightskyblue;
+
+}
+
+body {
+    background-color: gray;
+}
+
+body {
+    background-color: red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-gap: 15px;
+}
+
+.grid-item {
+    background-color: salmon;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.grid-itemright {
+    background-color: salmon;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    height: 100px;
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.main-image {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.main1 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.main2 {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+.support1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.support2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.support1-2 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.support2-2 {
+    grid-row: 3;
+    grid-row: 5;
+}
+
+.sidenav {
+    grid-column: 3;
+    grid-row: 3 /span 3;
+}
+
+.index {
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 60x;
+    background-color: burlywood;
+    border-radius: 15px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav li a:hover {
+    background-color: burlywood;
+}
+
+.active-navpage {
+    background-color: lightskyblue;
+}
+
+.grid-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200%;
+    max-height: 200%;
+    width: 1000px;
+    height: 600px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
