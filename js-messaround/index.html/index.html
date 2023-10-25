@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" id="pic">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-messaround</title>
+</head>
+
+<body>
+    <h1>Let's learn javascript</h1>
+    <h2>How do we do onclick events and alerts on an anchor</h2>
+    <a href="https://eastsideprep.org" target="_blank"
+        onclick="alert ('Warning! You are navigating away from my site!')">Eastside prep</a>
+    <h2>What's my secret identity?</h2>
+    <p id="secret"></p>
+    <button
+        onclick="document.getElementById('secret').innerHTML='Nana nana nana, Nick Eh 30' ; document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
+
+    <h2>How do we change an image with javascript</h2>
+    <img id="bulb" src="images/pic_bulboff.gif" alt="bulb that is off">
+    <button onclick="document,getElementById('bulb').src='images/pic_bulbon.gif'"> Turn on light</button>
+    <h2>How do e change css styles with a button</h2>
+    <p id="alice">Hi, I am Alice.</p>
+    <button
+        onclick="document.getElementById('alice').style.color='red'; document.getElementById('alice').style.fontSize='25px';">
+        she drinks potion</button>
+    <h2>How do we return user input?</h2>
+    <button onclick="askName ()">What's your name</button>
+    <p id="ask-name"></p>
+    <script>
+
+
+        function askName() {
+            let nameParagraph = document.getElementById('ask-name');
+            let name = prompt('What is your name?');
+            // dicide what to do
+            if (name == "Nick Eh 30") {
+                nameParagraph.innerHTML = "Mods ban him"
+            } else {
+                nameParagraph.innerHTML = "Hello" + name;
+            }
+        }
+    </script>
+    <h2>Two Truths and a Lie</h2>
+    <p id="content">I lived in Germany</p>
+    <p id="content1">I have surfed in Portugal</p>
+    <p id="lie"></p>
+    <p>Im 6 feet tall</p>
+    <button
+        onclick="document.getElementById('lie').innerHTML='LIE:';
+        document.getElementById('lie').style.display='block'; document.getElementById('content').style.display='none'; document.getElementById('content1').style.display='none'">Reveal!</button>
+    <button onclick="document.getElementById('lie').style.display='none'; document.getElementById('content').innerHTML='I lived in Germany';
+         document.getElementById('content1').innerHTML='I have surfed in Portugal';
+         document.getElementById('content').style.display='block';
+         document.getElementById('content1').style.display='block'">Hide!</button>
+
+    <h2>How to change background image</h2>
+    <button onclick="document.getElementById ('pic').style.backgroundImage='url(images/ocean_picture.jpg)'">Ocean
+        Image
+
+    </button>
+    <button onclick="document.getElementById('pic').style.backgroundImage='none'">No background
+    </button>
+
+    <h2>How to decorate text</h2>
+    <p id="decoration">Make this text underlined</p>
+    <button onclick="document.getElementById ('decoration').style.textDecoration='underline'">Underline text</button>
+    <button onclick="document.getElementById('decoration').style.textDecoration='none'">No decoration
+    </button>
+
+</body>
+
+</html>
