@@ -64,3 +64,8 @@ h1,
 h2 {
     text-align: center;
 }
+
+.img-border {
+    border: solid 10px;      
+border-color: rgb(158, 110, 65);
+}
